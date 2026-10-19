@@ -11,11 +11,13 @@ This repository is a fork of
   resolution, so a plugin package can ship RID-specific native assets without a deps file.
 - Package ID is `Hosihikari.McMaster.NETCore.Plugins`.
 - `test/Hosihikari.Tests` covers the RID-specific path probe.
+- Upstream `samples/` removed; `DotNetCorePlugins.sln` contains only the library and the
+  Hosihikari test project.
 
 ## Licence
 
 Apache-2.0, the same as upstream. The original copyright and licence notices are retained.
 Modified files: `src/Plugins/Loader/ManagedLoadContext.cs`,
 `src/Plugins/McMaster.NETCore.Plugins.csproj`, `src/Plugins/Properties/AssemblyInfo.cs`,
-`README.md`, `.github/workflows/ci.yml`; added `FORK.md` and `test/Hosihikari.Tests`. See
-[LICENSE.txt](LICENSE.txt).
+`README.md`, `DotNetCorePlugins.sln`, `.github/workflows/ci.yml`; added `FORK.md` and
+`test/Hosihikari.Tests`; removed `samples/`. See [LICENSE.txt](LICENSE.txt).

@@ -2,7 +2,7 @@
 ============
 
 > **Hosihikari fork.** This fork probes `runtimes/<rid>/native` before deps.json-based native
-> resolution (ADR-0034). See [FORK.md](FORK.md).
+> resolution (ADR-0034). Upstream samples are omitted. See [FORK.md](FORK.md).
 
 [![Build Status][ci-badge]][ci] [![Code Coverage][codecov-badge]][codecov]
 [![NuGet][nuget-badge] ![NuGet Downloads][nuget-download-badge]][nuget]
