@@ -14,5 +14,8 @@ This repository is a fork of
 
 ## Licence
 
-Apache-2.0, the same as upstream. The original copyright and licence notices are retained;
-modified files carry a notice. See [LICENSE.txt](LICENSE.txt).
+Apache-2.0, the same as upstream. The original copyright and licence notices are retained.
+Modified files: `src/Plugins/Loader/ManagedLoadContext.cs`,
+`src/Plugins/McMaster.NETCore.Plugins.csproj`, `src/Plugins/Properties/AssemblyInfo.cs`,
+`README.md`, `.github/workflows/ci.yml`; added `FORK.md` and `test/Hosihikari.Tests`. See
+[LICENSE.txt](LICENSE.txt).
