@@ -1,0 +1,18 @@
+# Hosihikari fork of DotNetCorePlugins
+
+This repository is a fork of
+[natemcmaster/DotNetCorePlugins](https://github.com/natemcmaster/DotNetCorePlugins) at commit
+`bcf9c8bd6d50097cfea1c3eeba132b571410fabe`, used by the Hosihikari framework.
+
+## Changes
+
+- `ManagedLoadContext.LoadUnmanagedDll` probes
+  `runtimes/<RuntimeInformation.RuntimeIdentifier>/native` before `.deps.json`-based native
+  resolution, so a plugin package can ship RID-specific native assets without a deps file.
+- Package ID is `Hosihikari.McMaster.NETCore.Plugins`.
+- `test/Hosihikari.Tests` covers the RID-specific path probe.
+
+## Licence
+
+Apache-2.0, the same as upstream. The original copyright and licence notices are retained;
+modified files carry a notice. See [LICENSE.txt](LICENSE.txt).
