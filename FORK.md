@@ -14,6 +14,13 @@ This repository is a fork of
 - Upstream `samples/` removed; `DotNetCorePlugins.sln` contains only the library and the
   Hosihikari test project.
 
+## Publishing
+
+`.github/workflows/publish.yml` publishes `Hosihikari.McMaster.NETCore.Plugins` to nuget.org
+through Trusted Publishing when a `v*` tag is pushed. The tag must equal `<PackageVersion>` in
+`src/Plugins/McMaster.NETCore.Plugins.csproj`; the workflow checks this before packing and pushes
+both the package and its symbols.
+
 ## Licence
 
 Apache-2.0, the same as upstream. The original copyright and licence notices are retained.
